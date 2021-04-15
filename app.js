@@ -30,4 +30,24 @@ if(x*y==30){
   console.log('its false',30);
 }
 
+var avengerName= prompt('please enter your avenger name')
+
+while(avengerName !=='hulk' && avengerName !=='ironman' && avengerName !=='thor' ){
+  avengerName= prompt('please enter hulk or ironman or thor')
+}
+var yourchoice;
+
+if (avengerName==='hulk'){
+  yourchoice=('<img src="https://i.pinimg.com/originals/c2/15/15/c215156bc1b330248b58381cf63ad9ad.jpg">');
+}else if (avengerName==='ironman'){
+  yourchoice=('<img src="https://i.pinimg.com/originals/78/ac/aa/78acaad3c2890c0d47f94ec7b3cce9fb.jpg">');
+}else if (avengerName==='thor'){
+  yourchoice=('<img src="https://i.pinimg.com/originals/01/e8/aa/01e8aa52b1fed0eaa3840d105c328fed.jpg">');
+}
+
+var imagesNumber= prompt('the number of images you want to see ??')
+
+for (var i=0 ; i < imagesNumber ;i++){
+  document.write(yourchoice)
+}
 
