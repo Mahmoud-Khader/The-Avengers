@@ -1,0 +1,35 @@
+header {
+  background-color: #5f939a; 
+}
+
+h1 {
+  text-align: center ;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 100px;
+}
+main {
+  background-color: #d8ac9c;
+}
+article img {
+  display: inline;
+  width: 50%;
+  border-radius: 50px;
+  float: right;
+}
+
+h2 {
+  color: #b4aee8;
+  text-align: center;
+}
+
+article p {
+  font-size: 30px;
+}
+
